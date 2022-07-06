@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn insta;ll'
+                sh 'mvn install'
             }
         }
         stage('Test') {
