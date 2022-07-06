@@ -1,0 +1,21 @@
+SNAP-REPO=vprofile-snapshot
+NEXUS-USER=admin
+NEXUS-PASS='P@ssw0rd@1'
+RELEASE-REPO=vprofile-release
+CENTRAL-REPO=vrpo-maven-central
+NEXUSIP=172.31.27.180
+NEXUSPORT=8081
+NEXUS-GRP-REPO=vpro-maven-group
+
+xoxb-3550711771490-3550310951125-0NAABpgmQmp5UZSje8ojqOw4
+
+
+7d1800dad3fba238fb5735f8bbcd2a0f8d22f748
+
+
+
+Sonar Cloud: 
+https://sonarcloud.io/
+Project Name : san-projects
+san-analysis
+7a8289319edfde268078ef8a5ddb5ba9381e4e64
