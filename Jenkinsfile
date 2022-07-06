@@ -31,7 +31,7 @@ pipeline {
         }    
         stage('UNIT Test') {
             steps {
-                sh mvn test
+                sh 'mvn test'
             }
         }
         stage('code Analysis with checkstyle ') {
