@@ -8,8 +8,8 @@ pipeline {
         NEXUS_REPOSITORY = "vprofile-release"
         NEXUS_CREDENTIAL_ID = "Nexus-server"
         ARTVERSION = "${env.BUILD_ID}"
-        scannerHome: tool 'sonar-4.7.0.2747'
-        NEXUS_REPO_ID    = "vpro-maven-group"
+        scannerHome = tool 'sonar-4.7.0.2747'
+        NEXUS_REPO_ID  = "vpro-maven-group"
     }
 
     stages {
