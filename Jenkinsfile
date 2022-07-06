@@ -60,7 +60,7 @@ pipeline {
                     -Dsonar.java.checkstyle.reportPaths=target/checkstyle-result.xml'''
                 }
                 timeout(time: 10, units 'MINUTES') {
-                    waitForQualityGate aboutPiupeline: true
+                    waitForQualityGate aboutPipeline: true
                 }
             }      
         }
